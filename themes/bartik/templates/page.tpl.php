@@ -122,7 +122,7 @@
     <?php endif; ?>
 
     <?php if (user_is_logged_in()): ?>
-	<div class="right"><a href="user/logout">Logout</a></div>
+	<div class="right"><a href="/user/logout">Logout</a></div>
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
