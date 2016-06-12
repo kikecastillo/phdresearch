@@ -121,7 +121,9 @@
       </div> <!-- /#name-and-slogan -->
     <?php endif; ?>
 
-    <div class="right"><a href="user/logout">Logout</a></div>
+    <?php if (user_is_logged_in()): ?>
+	<div class="right"><a href="user/logout">Logout</a></div>
+    <?php endif; ?>
 
     <?php print render($page['header']); ?>
 
