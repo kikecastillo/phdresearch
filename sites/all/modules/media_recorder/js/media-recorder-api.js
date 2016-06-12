@@ -131,7 +131,7 @@
 
     initializeButtons();
     initializeEvents();
-    setStatus('Click \'Start\' to enable your mic & camera.');
+    setStatus('Click \'Start\' to enable your microphone.');
 
     /**
      * Set status message.
@@ -327,7 +327,7 @@
         },
         function (error) {
           stopStream();
-          alert("There was a problem accessing your camera or mic. Please click 'Allow' at the top of the page.");
+          alert("There was a problem accessing your microphone. Please click 'Allow' at the top of the page.");
         }
       );
     }
@@ -350,7 +350,7 @@
         $startButton.hide();
         $videoButton.show();
         $audioButton.show();
-        setStatus('Record with audio or video?');
+        setStatus('Record with audio?');
       }
     }
 

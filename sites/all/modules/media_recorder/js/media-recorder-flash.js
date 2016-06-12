@@ -92,7 +92,7 @@
 
     initializeButtons();
     initializeEvents();
-    setStatus('Click \'Start\' to enable your mic & camera.');
+    setStatus('Click \'Start\' to enable your microphone.');
 
     /**
      * Set status message.
@@ -238,7 +238,7 @@
         $startButton.show();
         $startButton[0].disabled = false;
         $recordButton.hide();
-        setStatus('Click \'Start\' to enable your mic & camera.');
+        setStatus('Click \'Start\' to enable your microphone.');
       });
 
       // FWRecorder no_microphone_found event.
@@ -246,7 +246,7 @@
         $startButton.show();
         $startButton[0].disabled = false;
         $recordButton.hide();
-        setStatus('No mic found. Click \'Start\' to enable your mic & camera.');
+        setStatus('No mic found. Click \'Start\' to enable your microphone.');
       });
 
       // FWRecorder permission_panel_closed event.

@@ -579,8 +579,8 @@ h1#page-title {
   font-size: 1.429em;
   line-height: 1.4;
 }
-.node .content {
-  font-size: 2em;
+.node .content, .page-node .content {
+  font-size: 1.5em;
 }
 .node-teaser .content {
   font-size: 1em;
@@ -1130,7 +1130,7 @@ fieldset {
   border-radius: 4px;
 }
 .fieldset-wrapper {
-  margin-top: 25px;
+  margin-top: 50px;
 }
 .node-form .vertical-tabs .fieldset-wrapper {
   margin-top: 0;
@@ -1237,6 +1237,7 @@ select.form-select {
   border: 1px solid #ccc;
 }
 input.form-submit:hover,
+a.button:hover,
 input.form-submit:focus {
   background: #dedede;
 }
@@ -1645,4 +1646,18 @@ input.webform-previous.form-submit {
 }
 .center {
   text-align: center;
+}
+
+.media-recorder-wrapper {
+  max-width: 950px;
+  background: #ccc;
+  color: #000;
+}
+
+.media-recorder-status {
+    background: #ccc;
+}
+
+.media-recorder-controls button {
+    font-size: 1em;
 }

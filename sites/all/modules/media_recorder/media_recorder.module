@@ -993,3 +993,8 @@ function media_recorder_widget_value($element, $input = FALSE, $form_state) {
 
   return $return;
 }
+
+function media_recorder_form_alter(&$form, &$form_state, $form_id) {
+    $form['actions']['submit']['#value'] = 'Submit';
+}
+
