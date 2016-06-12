@@ -121,6 +121,8 @@
       </div> <!-- /#name-and-slogan -->
     <?php endif; ?>
 
+    <div class="right"><a href="user/logout">Logout</a></div>
+
     <?php print render($page['header']); ?>
 
     <?php if ($main_menu): ?>

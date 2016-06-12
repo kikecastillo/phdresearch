@@ -1661,3 +1661,7 @@ input.webform-previous.form-submit {
 .media-recorder-controls button {
     font-size: 1em;
 }
+
+.right {
+    float: right;
+}
