@@ -1665,3 +1665,13 @@ input.webform-previous.form-submit {
 .right {
     float: right;
 }
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block {
+    float: left;
+    margin-right: 20px;
+}
